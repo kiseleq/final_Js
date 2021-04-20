@@ -42,7 +42,6 @@ window.addEventListener('DOMContentLoaded', function(){
             item.addEventListener('click', (event) => {
                 event.preventDefault();
                 let t = event.target;
-                console.log(t);
 
                 if (t === links[0]) {
                     window.scroll({
