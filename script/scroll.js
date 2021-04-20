@@ -35,12 +35,35 @@ window.addEventListener('DOMContentLoaded', function(){
 
     
     const scrollToTargets = () => {
-        const targets = document.querySelectorAll('.target');
+        const links = document.querySelectorAll('.link'),
+            targets = document.querySelectorAll('.target');
 
-        targets.forEach((item) => {
+        links.forEach((item) => {
             item.addEventListener('click', (event) => {
                 event.preventDefault();
-                console.log(31);
+                let t = event.target;
+                console.log(t);
+
+                if (t === links[0]) {
+                    window.scroll({
+                        left: 0,
+                        top: targets[0].offsetTop,
+                        behavior: 'smooth',
+                    });
+                } else if (t === links[1]) {
+                    window.scroll({
+                        left: 0,
+                        top: targets[1].offsetTop,
+                        behavior: 'smooth',
+                    });
+                } else if (t === links[2]) {
+                    window.scroll({
+                        left: 0,
+                        top: targets[2].offsetTop,
+                        behavior: 'smooth',
+                    });
+                }
+                
             });
         });
         
