@@ -1273,3 +1273,8 @@ video#video_background {
 	position: relative;
 	z-index: 0;
 }
+
+
+.del {
+	display: none;
+}
