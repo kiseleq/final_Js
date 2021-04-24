@@ -1,5 +1,4 @@
-window.addEventListener('DOMContentLoaded', function(){
-    'use strict';
+
     
     const sendForm = () => {
         const errorMessage = 'Что-то пошло не так...',
@@ -77,6 +76,4 @@ window.addEventListener('DOMContentLoaded', function(){
 
     };
 
-    sendForm();
-
-});
+    export default sendForm;

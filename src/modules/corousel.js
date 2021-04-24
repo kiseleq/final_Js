@@ -1,6 +1,4 @@
 
-'use strict';
-
 const corousel = () => {
     const items = document.querySelectorAll('.courItem'),
         modalCallBack = document.querySelector('.modal-callback'),
@@ -56,5 +54,6 @@ const corousel = () => {
 
 };
 
-corousel();
+export default corousel;
+
 

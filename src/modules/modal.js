@@ -1,5 +1,3 @@
-window.addEventListener('DOMContentLoaded', function(){
-    'use strict';
 
     const openModal = () => {
         const modalBtn = document.querySelector('.modalBtn'),
@@ -89,6 +87,5 @@ window.addEventListener('DOMContentLoaded', function(){
 
     };
 
-    openModal();
+    export default openModal;
 
-});

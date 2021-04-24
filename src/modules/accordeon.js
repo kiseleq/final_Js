@@ -1,5 +1,3 @@
-window.addEventListener('DOMContentLoaded', function(){
-    'use strict';
 
     const accordeon = () => {
         const accord = document.querySelectorAll('.accord'),
@@ -30,7 +28,6 @@ window.addEventListener('DOMContentLoaded', function(){
 
     };
 
-    accordeon();
+    export default accordeon;
 
 
-});

@@ -1,5 +1,4 @@
-window.addEventListener('DOMContentLoaded', function(){
-    'use strict';
+
 
     //Slider
     const slider = () => {
@@ -26,7 +25,4 @@ window.addEventListener('DOMContentLoaded', function(){
 
     };
 
-    slider();
-
-
-});  
+    export default slider;

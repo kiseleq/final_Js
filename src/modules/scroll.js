@@ -1,5 +1,4 @@
-window.addEventListener('DOMContentLoaded', function(){
-    'use strict';
+
 
     //Scroll
 
@@ -69,7 +68,6 @@ window.addEventListener('DOMContentLoaded', function(){
 
     };
 
-    scrollToTargets();
+    export default scrollTop;
 
 
-});
