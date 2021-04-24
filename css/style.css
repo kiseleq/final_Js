@@ -1278,3 +1278,60 @@ video#video_background {
 .del {
 	display: none;
 }
+
+/* .service {
+	width: 100%;
+	display: inline-block;
+	overflow-x: hidden;
+	/* justify-content: space-between; */
+	
+
+
+/*.courItem{
+	display: inline-block;
+	height: 360px *important; 
+	width: 240px *important;
+	margin-left: 150px;
+
+
+
+
+/* .services-carouse{
+	overflow: hidden;
+	height: 500px;
+	width: 1000px;
+	display: flex;
+	/* justify-content: space-between; */
+	/* margin: auto; */
+
+
+/* .services-elements{
+	height: 500px;
+	width: 1000px;
+	margin: auto;
+	overflow: hidden;
+} */
+
+.services-carousel{
+	margin: auto;
+	width: 1000px;
+	overflow-x: hidden;
+	justify-content: space-between;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-basis: initial;
+	
+	
+	
+}
+
+.courItem{
+	margin-left: 150px;
+	/* width: 300px !important;
+	height: 500px !important; */
+}
+
+.el {
+	width: 300px !important;
+	height: 500px !important;
+}

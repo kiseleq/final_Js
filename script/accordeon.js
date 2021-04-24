@@ -22,6 +22,7 @@ window.addEventListener('DOMContentLoaded', function(){
                     item.classList.add('active');
                     const child = item.querySelector('.element-content');
                     child.style.display = 'block';
+                    
                 }
             });
         });
