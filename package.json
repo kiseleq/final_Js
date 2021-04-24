@@ -1,0 +1,24 @@
+{
+  "name": "end.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiseleq/final_Js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiseleq/final_Js/issues"
+  },
+  "homepage": "https://github.com/kiseleq/final_Js#readme",
+  "devDependencies": {
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  }
+}
